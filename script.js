@@ -28,7 +28,7 @@ $(document).ready(function(){
  	createGrid(16);
  	 $(".grid").on("mouseenter", function() {
 
- 		$(this).css("background-color", "white");
+ 		$(this).css("background-color", "black");
  	});
 
  	$("#clear").on("click", function(){
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
  		$(".grid").on("mouseenter", function() {
 
- 			$(this).css("background-color", "white");
+ 			$(this).css("background-color", "black");
  		});
  	});
 });

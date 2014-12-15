@@ -1,5 +1,4 @@
-$(document).ready(function() {
-    $('div').mouseenter(function) {
-        $.fadeTo('fast', 1);
-    });
+$(document).ready(function(){
+$('p').html("jQuery magic in action!");
+
 });
